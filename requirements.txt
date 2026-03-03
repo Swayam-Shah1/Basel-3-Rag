@@ -11,9 +11,9 @@ pdfplumber>=0.10
 pymupdf>=1.23
 
 # NLP & Embeddings
-#sentence-transformers>=2.2
-#transformers>=4.40
-#torch>=2.2
+sentence-transformers>=2.2
+transformers>=4.40
+torch>=2.2
 
 # Vector DB
 qdrant-client>=1.7
@@ -32,6 +32,9 @@ langchain-text-splitters>=0.2
 # Validation & Config
 pydantic>=2.6
 python-dotenv>=1.0
+
+#Assessment
+ragas >=0.2
 
 # Logging
 loguru>=0.7
